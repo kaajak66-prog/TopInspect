@@ -1,0 +1,267 @@
+[
+  {
+    "feature": "IPV4_SRC_ADDR",
+    "desc_en": "IPv4 source address",
+    "desc_cn": "IPv4源地址"
+  },
+  {
+    "feature": "IPV4_DST_ADDR",
+    "desc_en": "IPv4 destination address",
+    "desc_cn": "IPv4目的地址"
+  },
+  {
+    "feature": "L4_SRC_PORT",
+    "desc_en": "IPv4 source port number",
+    "desc_cn": "传输层源端口"
+  },
+  {
+    "feature": "L4_DST_PORT",
+    "desc_en": "IPv4 destination port number",
+    "desc_cn": "传输层目的端口"
+  },
+  {
+    "feature": "PROTOCOL",
+    "desc_en": "IP protocol identifier byte",
+    "desc_cn": "协议"
+  },
+  {
+    "feature": "L7_PROTO",
+    "desc_en": "Layer 7 protocol (numeric)",
+    "desc_cn": "第七层协议"
+  },
+  {
+    "feature": "IN_BYTES",
+    "desc_en": "Incoming number of bytes",
+    "desc_cn": "入站字节数"
+  },
+  {
+    "feature": "OUT_BYTES",
+    "desc_en": "Outgoing number of bytes",
+    "desc_cn": "出站字节数"
+  },
+  {
+    "feature": "IN_PKTS",
+    "desc_en": "Incoming number of packets",
+    "desc_cn": "入站数据包数"
+  },
+  {
+    "feature": "OUT_PKTS",
+    "desc_en": "Outgoing number of packets",
+    "desc_cn": "输出数据包数量"
+  },
+  {
+    "feature": "FLOW_DURATION_MILLISECONDS",
+    "desc_en": "Flow duration in milliseconds",
+    "desc_cn": "流量持续时间毫秒"
+  },
+  {
+    "feature": "TCP_FLAGS",
+    "desc_en": "Cumulative of all TCP flags",
+    "desc_cn": "TCP标志"
+  },
+  {
+    "feature": "CLIENT_TCP_FLAGS",
+    "desc_en": "Cumulative of all client TCP flags",
+    "desc_cn": "客户端TCP标志"
+  },
+  {
+    "feature": "SERVER_TCP_FLAGS",
+    "desc_en": "Cumulative of all server TCP flags",
+    "desc_cn": "服务器TCP标志"
+  },
+  {
+    "feature": "DURATION_IN",
+    "desc_en": "Client to Server stream duration (msec)",
+    "desc_cn": "流入持续时间"
+  },
+  {
+    "feature": "DURATION_OUT",
+    "desc_en": "Client to Server stream duration (msec)",
+    "desc_cn": "流出持续时间"
+  },
+  {
+    "feature": "MIN_TTL",
+    "desc_en": "Min flow TTL",
+    "desc_cn": "最小TTL"
+  },
+  {
+    "feature": "MAX_TTL",
+    "desc_en": "Max flow TTL",
+    "desc_cn": "最大TTL"
+  },
+  {
+    "feature": "LONGEST_FLOW_PKT",
+    "desc_en": "Longest packet (bytes) of the flow",
+    "desc_cn": "最长流量数据包"
+  },
+  {
+    "feature": "SHORTEST_FLOW_PKT",
+    "desc_en": "Shortest packet (bytes) of the flow",
+    "desc_cn": "最短流量数据包"
+  },
+  {
+    "feature": "MIN_IP_PKT_LEN",
+    "desc_en": "Len of the smallest flow IP packet observed",
+    "desc_cn": "最小IP数据包长度"
+  },
+  {
+    "feature": "MAX_IP_PKT_LEN",
+    "desc_en": "Len of the largest flow IP packet observed",
+    "desc_cn": "最大IP数据包长度"
+  },
+  {
+    "feature": "SRC_TO_DST_SECOND_BYTES",
+    "desc_en": "Src to dst Bytes/sec",
+    "desc_cn": "源到目的第二次字节数"
+  },
+  {
+    "feature": "DST_TO_SRC_SECOND_BYTES",
+    "desc_en": "Dst to src Bytes/sec",
+    "desc_cn": "目的到源第二次字节"
+  },
+  {
+    "feature": "RETRANSMITTED_IN_BYTES",
+    "desc_en": "Number of retransmitted TCP flow bytes (src->dst)",
+    "desc_cn": "重传入字节数"
+  },
+  {
+    "feature": "RETRANSMITTED_IN_PKTS",
+    "desc_en": "Number of retransmitted TCP flow packets (src->dst)",
+    "desc_cn": "重传入数据包数"
+  },
+  {
+    "feature": "RETRANSMITTED_OUT_BYTES",
+    "desc_en": "Number of retransmitted TCP flow bytes (dst->src)",
+    "desc_cn": "重传出字节数"
+  },
+  {
+    "feature": "RETRANSMITTED_OUT_PKTS",
+    "desc_en": "Number of retransmitted TCP flow packets (dst->src)",
+    "desc_cn": "重传出数据包数"
+  },
+  {
+    "feature": "SRC_TO_DST_AVG_THROUGHPUT",
+    "desc_en": "Src to dst average thpt (bps)",
+    "desc_cn": "源到目的平均吞吐量"
+  },
+  {
+    "feature": "DST_TO_SRC_AVG_THROUGHPUT",
+    "desc_en": "Dst to src average thpt (bps)",
+    "desc_cn": "目的到源平均吞吐量"
+  },
+  {
+    "feature": "NUM_PKTS_UP_TO_128_BYTES",
+    "desc_en": "Packets whose IP size <= 128",
+    "desc_cn": "128字节及以下的数据包数量"
+  },
+  {
+    "feature": "NUM_PKTS_128_TO_256_BYTES",
+    "desc_en": "Packets whose IP size > 128 and <= 256",
+    "desc_cn": "128到256字节的数据包数量"
+  },
+  {
+    "feature": "NUM_PKTS_256_TO_512_BYTES",
+    "desc_en": "Packets whose IP size > 256 and <= 512",
+    "desc_cn": "256到512字节的数据包数量"
+  },
+  {
+    "feature": "NUM_PKTS_512_TO_1024_BYTES",
+    "desc_en": "Packets whose IP size > 512 and <= 1024",
+    "desc_cn": "512到1024字节的数据包数量"
+  },
+  {
+    "feature": "NUM_PKTS_1024_TO_1514_BYTES",
+    "desc_en": "Packets whose IP size >��1024 and <= 1514",
+    "desc_cn": "1024到1514字节的数据包数量"
+  },
+  {
+    "feature": "TCP_WIN_MAX_IN",
+    "desc_en": "Max TCP Window (src->dst)",
+    "desc_cn": "TCP接收窗口最大值"
+  },
+  {
+    "feature": "TCP_WIN_MAX_OUT",
+    "desc_en": "Max TCP Window (dst->src)",
+    "desc_cn": "TCP发送窗口最大值"
+  },
+  {
+    "feature": "ICMP_TYPE",
+    "desc_en": "ICMP Type * 256 + ICMP code",
+    "desc_cn": "ICMP类型"
+  },
+  {
+    "feature": "ICMP_IPV4_TYPE",
+    "desc_en": "ICMP Type",
+    "desc_cn": "IPv4的ICMP类型"
+  },
+  {
+    "feature": "DNS_QUERY_ID",
+    "desc_en": "DNS query transaction Id",
+    "desc_cn": "DNS查询ID"
+  },
+  {
+    "feature": "DNS_QUERY_TYPE",
+    "desc_en": "DNS query type (e.g. 1=A, 2=NS..)",
+    "desc_cn": "DNS查询类型"
+  },
+  {
+    "feature": "DNS_TTL_ANSWER",
+    "desc_en": "TTL of the first A record (if any)",
+    "desc_cn": "DNS答案的TTL"
+  },
+  {
+    "feature": "FTP_COMMAND_RET_CODE",
+    "desc_en": "FTP client command return code",
+    "desc_cn": "FTP命令返回码"
+  },
+  {
+    "feature": "FLOW_START_MILLISECONDS",
+    "desc_en": "Flow start timestamp in milliseconds",
+    "desc_cn": "流量开始毫秒数"
+  },
+  {
+    "feature": "FLOW_END_MILLISECONDS",
+    "desc_en": "Flow end timestamp in milliseconds",
+    "desc_cn": "流量结束毫秒数"
+  },
+  {
+    "feature": "SRC_TO_DST_IAT_MIN",
+    "desc_en": "Minimum Inter-Packet Arrval Time (src->dst)",
+    "desc_cn": "源到目的IAT最小值"
+  },
+  {
+    "feature": "SRC_TO_DST_IAT_MAX",
+    "desc_en": "Maximum Inter-Packet Arrval Time (src->dst)",
+    "desc_cn": "源到目的IAT最大值"
+  },
+  {
+    "feature": "SRC_TO_DST_IAT_AVG",
+    "desc_en": "Average Inter-Packet Arrval Time (src->dst)",
+    "desc_cn": "源到目的IAT平均值"
+  },
+  {
+    "feature": "SRC_TO_DST_IAT_STDDEV",
+    "desc_en": "Sandard Deviaion Inter-Packet Arrval Time (src->dst)",
+    "desc_cn": "源到目的IAT标准差"
+  },
+  {
+    "feature": "DST_TO_SRC_IAT_MIN",
+    "desc_en": "Minimum Inter-Packet Arrval Time (dst > src)",
+    "desc_cn": "目的到源IAT最小值"
+  },
+  {
+    "feature": "DST_TO_SRC_IAT_MAX",
+    "desc_en": "Minimum Inter-Packet Arrval Time  (dst > src)",
+    "desc_cn": "目标到源的IAT最大值"
+  },
+  {
+    "feature": "DST_TO_SRC_IAT_AVG",
+    "desc_en": "Minimum Inter-Packet Arrval Time  (dst > src)",
+    "desc_cn": "目标到源的IAT平均值"
+  },
+  {
+    "feature": "DST_TO_SRC_IAT_STDDEV",
+    "desc_en": "Minimum Inter-Packet Arrval Time  (dst > src)",
+    "desc_cn": "目标到源的IAT标准差"
+  }
+]
